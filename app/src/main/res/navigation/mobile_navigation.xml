@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.catnip.ryuodaappfood.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home_fragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cart_fragment"
+        android:name="com.catnip.ryoudaappfood.ui.cart.CartFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/action_cart_fragment_to_confirmFragment"
+            app:destination="@id/confirmFragment" />
+        <action
+            android:id="@+id/action_cart_fragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profle_fragment"
+        android:name="com.catnip.ryuodaappfood.ui.profile.ProfileFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/confirmFragment"
+        android:name="com.catnip.ryoudaappfood.ui.confirm.ConfirmFragment"
+        android:label="fragment_confirm"
+        tools:layout="@layout/fragment_confirm" >
+        <action
+            android:id="@+id/action_confirmFragment_to_home_fragment"
+            app:destination="@id/home_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        tools:layout="@layout/fragment_detail"
+        android:name="com.catnip.ryuodaappfood.ui.detail.DetailFragment"
+        android:label="DetailFragment" >
+        <action
+            android:id="@+id/action_detailFragment_to_cart_fragment"
+            app:destination="@id/cart_fragment" />
+    </fragment>
+</navigation>

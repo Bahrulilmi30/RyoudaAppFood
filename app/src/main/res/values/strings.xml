@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RyuodaAppFood</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="image_content_desc">gambar</string>
+    <string name="text_header_name">Halo, Bahrul Ilmi</string>
+    <string name="text__header_greatings">Mau makan apa hari ini?</string>
+    <string name="text_disc">Disc 30%</string>
+    <string name="text_desc">Pesan makanan lewat aplikasi dan dapatkan diskonmu!</string>
+    <string name="item_name">Minuman</string>
+    <string name="text_menu_name">List Menu Makanan</string>
+    <string name="text_nama_menu">Nama Menu</string>
+    <string name="text_harga_menu">Rp Harga Menu</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_profile">Profile</string>
+    <string name="text_jumlah">0</string>
+    <string name="text_catatan">Catatan</string>
+    <string name="text_harga">Rp Harga Menu</string>
+    <string name="text_nama">Nama Menu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_lokasi">Lokasi</string>
+    <string name="text_nama_lokasi">Jl. BSD Green Office Park Jl. BSD Grand Boulevard, Sampora, BSD, Kabupaten Tangerang, Banten 15345</string>
+</resources>
